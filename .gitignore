@@ -1,6 +1,5 @@
 ws/
 run.sh
-requirements.txt
 migrations/
 Makefile
 Procfile
