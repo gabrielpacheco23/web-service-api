@@ -1,0 +1,7 @@
+ws/
+run.sh
+requirements.txt
+migrations/
+Makefile
+Procfile
+__pycache__/
