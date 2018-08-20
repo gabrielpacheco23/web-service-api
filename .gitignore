@@ -2,5 +2,5 @@ ws/
 run.sh
 migrations/
 Makefile
-Procfile
+#Procfile
 __pycache__/
