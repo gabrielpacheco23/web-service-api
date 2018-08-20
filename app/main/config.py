@@ -8,6 +8,7 @@ class Config:
 	SQLALCHEMY_POOL_RECYCLE = 50
 	SQLALCHEMY_POOL_SIZE = 100
 	SQLALCHEMY_DISCONNECTION_HANDLING = True
+	SQLALCHEMY_DATABASE_URI = 'mysql://b5113854d7ce0c:2e5bd146@us-cdbr-iron-east-01.cleardb.net/heroku_f928163fc4a243b?reconnect=true'
 
 class DevelopmentConfig(Config):
 	DEBUG = True
@@ -26,7 +27,7 @@ class TestingConfig(Config):
 
 class ProductionConfig(Config):
 	DEBUG = False
-	SQLALCHEMY_DATABASE_URI = 'mysql://root:1234@localhost:3306/ws_main'
+	#SQLALCHEMY_DATABASE_URI = 'mysql://root:1234@localhost:3306/ws_main'
 
 config_by_name = dict(
 	dev=DevelopmentConfig,
