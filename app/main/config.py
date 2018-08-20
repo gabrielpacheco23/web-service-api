@@ -33,4 +33,6 @@ config_by_name = dict(
 	prod=ProductionConfig
 )
 
+#git push
+
 key = Config.SECRET_KEY
