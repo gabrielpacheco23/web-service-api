@@ -26,6 +26,7 @@ class TestingConfig(Config):
 
 class ProductionConfig(Config):
 	DEBUG = False
+	SQLALCHEMY_DATABASE_URI = 'mysql://root:1234@localhost:3306/ws_main'
 
 config_by_name = dict(
 	dev=DevelopmentConfig,
