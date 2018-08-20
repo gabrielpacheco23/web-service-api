@@ -13,7 +13,7 @@ class Config:
 class DevelopmentConfig(Config):
 	DEBUG = True
 	#SQLALCHEMY_DATABASE_URI = 'mysql://apitranslsys:Mud@r123@apitranslsys.mysql.pythonanywhere-services.com/apitranslsys$default'
-	SQLALCHEMY_DATABASE_URI = 'mysql://root:1234@localhost:3306/ws_main'
+	#SQLALCHEMY_DATABASE_URI = 'mysql://root:1234@localhost:3306/ws_main'
 	SQLALCHEMY_TRACK_MODIFICATIONS = False
 	SQLALCHEMY_POOL_RECYCLE = 50
 
@@ -21,7 +21,7 @@ class TestingConfig(Config):
 	DEBUG = True
 	TESTING = True
 	#SQLALCHEMY_DATABASE_URI = 'mysql://apitranslsys:Mud@r123@apitranslsys.mysql.pythonanywhere-services.com/apitranslsys$default'
-	SQLALCHEMY_DATABASE_URI = 'mysql://root:1234@localhost:3306/ws_test'
+	#SQLALCHEMY_DATABASE_URI = 'mysql://root:1234@localhost:3306/ws_test'
 	PRESERVE_CONTEXT_ON_EXCEPTION = False
 	SQLALCHEMY_TRACK_MODIFICATIONS = False
 
