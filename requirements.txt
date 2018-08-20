@@ -26,4 +26,3 @@ Werkzeug==0.14.1
 gunicorn
 eventlet
 mysqlclient
-mysqldb
