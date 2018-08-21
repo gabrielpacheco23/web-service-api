@@ -8,7 +8,9 @@ class Config:
 	SQLALCHEMY_POOL_RECYCLE = 50
 	SQLALCHEMY_POOL_SIZE = 100
 	SQLALCHEMY_DISCONNECTION_HANDLING = True
-	SQLALCHEMY_DATABASE_URI = 'mysql://b5113854d7ce0c:2e5bd146@us-cdbr-iron-east-01.cleardb.net/heroku_f928163fc4a243b?reconnect=true'
+	#SQLALCHEMY_DATABASE_URI = 'mysql://b5113854d7ce0c:2e5bd146@us-cdbr-iron-east-01.cleardb.net/heroku_f928163fc4a243b?reconnect=true'
+	SQLALCHEMY_DATABASE_URI = 'postgres://fpxcyrzzsqrwwc:5d871194b0a7475568df0086456b854dc097226118f9d2f50a7d97ebd0eb71ab@ec2-54-235-244-185.compute-1.amazonaws.com:5432/dd66ra009a756n'
+
 
 class DevelopmentConfig(Config):
 	DEBUG = True
