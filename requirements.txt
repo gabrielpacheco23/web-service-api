@@ -27,3 +27,4 @@ gunicorn
 eventlet
 mysqlclient
 psycopg2
+APScheduler==3.0.0
