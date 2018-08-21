@@ -1,3 +1,0 @@
-#! /app/bin/bash
-
-heroku restart -a api-trans-lsys
